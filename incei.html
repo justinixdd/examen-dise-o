@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área Administrativa - CTP de Aserrí</title>
+  <style>
+    body { margin:0; font-family:Arial,sans-serif; background:#fff; color:#333; line-height:1.6; }
+    .header { background:white; padding:15px 40px; box-shadow:0 2px 10px rgba(0,0,0,0.1); position:sticky; top:0; z-index:100; }
+    .logo { font-size:28px; font-weight:bold; color:#6a1b9a; display:inline-block; }
+    nav { float:right; margin-top:10px; }
+    nav a { margin:0 15px; color:#6a1b9a; text-decoration:none; font-weight:500; }
+    nav a:hover { text-decoration:underline; }
+    .container { max-width:1200px; margin:30px auto; padding:0 20px; text-align:center; }
+    h1, h2 { color:#6a1b9a; }
+    h1 { margin-bottom:10px; }
+    .hero-img { 
+      width:100%; 
+      max-width:650px; 
+      border-radius:12px; 
+      margin:20px auto; 
+      box-shadow:0 6px 20px rgba(0,0,0,0.15); 
+      display:block;
+    }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(350px,1fr)); gap:40px; margin-top:50px; }
+    .card { background:white; padding:25px; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.08); }
+    .card h2 { margin-top:0; text-align:left; }
+    footer { text-align:center; padding:40px; color:#666; font-size:14px; margin-top:60px; }
+    @media (max-width:768px) { nav { float:none; text-align:center; } nav a { display:inline-block; margin:10px; } }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">CTP de Aserrí</div>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/about">¿Quiénes somos?</a>
+      <a href="/administracion">Área Administrativa</a>
+      <a href="/area-academica">Área Académica</a>
+      <a href="/normativa-interna">Normativa Interna</a>
+      <a href="/admision-2025-2026">Admisión 2026</a>
+      <a href="/contacto">Contacto</a>
+    </nav>
+  </div>
+
+  <div class="container">
+    <h1>Área Administrativa</h1>
+    
+    <!-- IMAGEN CENTRADA Y BONITA -->
+    <img src="/1.webp" 
+         alt="Oficina administrativa del CTP de Aserrí" 
+         class="hero-img">
+
+    <div class="grid">
+      <!-- Aquí van tus 8 cards como antes -->
+      <div class="card"><h2>Dirección</h2><p>Le corresponde organizar, coordinar...</p></div>
+      <div class="card"><h2>Sub Dirección</h2><p>Atiende a los estudiantes...</p></div>
+      <div class="card"><h2>Auxiliar Administrativo</h2><p>Es quien realiza labores...</p></div>
+      <div class="card"><h2>Oficinista</h2><p>La secretaría de dirección...</p></div>
+      <div class="card"><h2>Orientación</h2><p>El Departamento de Orientación...</p></div>
+      <div class="card"><h2>Coordinación Técnica</h2><p>Brinda acompañamiento...</p></div>
+      <div class="card"><h2>Coordinación con la Empresa</h2><p>Es la encargada de planear...</p></div>
+      <div class="card"><h2>Coordinador Académico</h2><p>El coordinador académico...</p></div>
+    </div>
+  </div>
+
+  <footer>CTP de Aserrí © 2025</footer>
+</body>
+</html>
